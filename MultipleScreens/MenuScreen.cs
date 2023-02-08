@@ -28,7 +28,7 @@ namespace MultipleScreens
             gs.Focus();
 
             //Centre the screen on the Form
-            gs.Location = new Point((this.Width - gs.Width) / 2, (this.Height - gs.Height) / 2);
+            gs.Location = new Point((f.Width - gs.Width) / 2, (f.Height - gs.Height) / 2);
         }
     }
 }

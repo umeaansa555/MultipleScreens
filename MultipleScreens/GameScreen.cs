@@ -31,7 +31,7 @@ namespace MultipleScreens
 
 
             //Centre the screen on the Form
-            ms.Location = new Point((this.Width - ms.Width) / 2, (this.Height - ms.Height) / 2);
+            ms.Location = new Point((f.Width - ms.Width) / 2, (f.Height - ms.Height) / 2);
         }
 
         private void exitButton_Click(object sender, EventArgs e)
